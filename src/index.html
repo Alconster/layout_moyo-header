@@ -11,9 +11,18 @@
       content="ie=edge"
     />
     <title>Moyo header</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
     <link
       rel="stylesheet"
@@ -21,30 +30,90 @@
     />
   </head>
   <body>
-    <header>
-
+    <header class="header">
       <a href="#">
         <img
-          src="/src/images/logo.png"
+          class="header__logo"
+          src="./images/logo.png"
           alt="Moyo logo"
         />
       </a>
 
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a
+              href="#"
+              class="nav__link is-active"
+            >
+              apple
+            </a>
+          </li>
 
-      <nav>
+          <li class="nav__item">
+            <a
+              href="#"
+              class="nav__link"
+            >
+              Samsung
+            </a>
+          </li>
 
+          <li class="nav__item">
+            <a
+              href="#"
+              class="nav__link"
+            >
+              SMARTPHONES
+            </a>
+          </li>
 
-        <ul>
-          <li class="nav-link"><a href="#" class="nav-link-item">APPLE</a></li>
-          <li class="nav-link"><a href="#" class="nav-link-item">SAMSUNG</a></li>
-          <li class="nav-link"><a href="#" class="nav-link-item">SMARTPHONES</a></li>
-          <li class="nav-link"><a href="#" class="nav-link-item">LAPTOPS & COMPUTERS</a></li>
-          <li class="nav-link"><a href="#" class="nav-link-item">GADGETS</a></li>
-          <li class="nav-link"><a href="#" class="nav-link-item">TABLETS</a></li>
-          <li class="nav-link"><a href="#" class="nav-link-item">PHOTO</a></li>
+          <li class="nav__item">
+            <a
+              href="#"
+              class="nav__link"
+              data-qa="hover"
+            >
+              LAPTOPS & COMPUTERS
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a
+              href="#"
+              class="nav__link"
+            >
+              GADGETS
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a
+              href="#"
+              class="nav__link"
+            >
+              TABLETS
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a
+              href="#"
+              class="nav__link"
+            >
+              PHOTO
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a
+              href="#"
+              class="nav__link"
+            >
+              video
+            </a>
+          </li>
         </ul>
-
-
       </nav>
     </header>
   </body>
